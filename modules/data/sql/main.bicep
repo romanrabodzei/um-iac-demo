@@ -186,7 +186,7 @@ module sqlDatabaseReplica_resource 'modules/sqldatabase_replica.bicep' = [for sq
 
 module failoverGroup_resource 'modules/slq_failovergroup.bicep' = if (location == 'ukwest') {
   scope: resourceGroupUKS
-  name: 'sqlFog-${variables.global.environmentName}'
+  name: 'sqlFailOverGroup-${variables.global.environmentName}'
   params: {
     location: location
     failoverGroupName: variables.prd.global.sqlFailoverGroupName
