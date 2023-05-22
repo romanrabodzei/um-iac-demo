@@ -3,8 +3,7 @@
     Bicep template for SQL Database. Template https://docs.microsoft.com/en-us/azure/templates/Microsoft.Sql/servers/databases?tabs=bicep#template-format
 
 .NOTES
-    Author     : CoE Azure
-    Company    : Itineris NV
+    Author     : Roman Rabodzei
     Version    : 1.0.221128
 */
 
